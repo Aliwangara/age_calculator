@@ -11,7 +11,7 @@ ageBtn.addEventListener('click', ()=>{
 
     const age = currentYear - dob;
 
-    alert(`You are ${age} Years Old`)
+   dob > currentYear ? alert(`You are yet to be born`): alert(`You are ${age} Years Old`);
 
 
     ageElement.value = ''
