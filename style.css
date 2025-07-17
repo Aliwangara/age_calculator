@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(106, 120, 247);
+    
+
+}
+
+.age-container{
+    
+    align-items: center;
+    margin-top: 20px;
+    padding: 3rem 2rem;
+    border: 1px solid;
+    
+    
+}
+
+.age-container input{
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding: 1rem;
+
+}
+
+.age-container button{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    
+}
